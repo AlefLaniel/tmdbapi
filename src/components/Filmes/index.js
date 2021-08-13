@@ -5,7 +5,6 @@ import './Filmes.css';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ({ title, items }) => {
 
-    
 
     return (
         <div className = "filmes" >
@@ -50,5 +49,9 @@ export default ({ title, items }) => {
                 </div>    
             </div>
         </div>
+
+        
     );
+
+    
 }

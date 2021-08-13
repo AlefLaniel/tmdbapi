@@ -75,7 +75,8 @@ export default () => {
             movieList.map((item, key) => ( 
                 <Filmes key = { key }
                 title = { item.title }
-                items = { item.items }/>
+                items = { item.items }
+                />
             ))
         } 
         </section> 
