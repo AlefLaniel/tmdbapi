@@ -30,10 +30,10 @@ export default ({ title, items }) => {
                                                 } >
                         <div className = "filmes--vertical" >
                         <div className = "filmes--horizontal" >
-                        <div className = "filmes--title" > { item.title } </div>  
+                        <div className = "filmes--title" > { item.title } {item.original_name}</div>  
                         <div className = "filmes--info" >
-                            <div className = "filmes--points" > { item.vote_average } avaliação dos usuários </div>  
-                            <div className = "filmes--year" > { item.release_date } </div>  
+                            <div className = "filmes--points" > { item.vote_average } avaliação </div> 
+                            <div className = "filmes--year" > { item.release_date } {item.firstDate}</div>
                             <div className = "filmes--descricao" > { item.overview.substring(0,250)+'...' } </div> 
                         </div> 
                         

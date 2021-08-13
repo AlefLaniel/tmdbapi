@@ -29,6 +29,11 @@ export default {
                 slug: 'toprated',
                 title: 'Filmes + Ranqueados',
                 items: await basicFetch(`/movie/top_rated?language=pt-BR&api_key=${API_KEY}`)
+            },
+            {
+                slug: 'discover',
+                title: 'Séries de TV',
+                items: await basicFetch(`/discover/tv?language=pt-BR&api_key=${API_KEY}`)
             }
         ];
     },
