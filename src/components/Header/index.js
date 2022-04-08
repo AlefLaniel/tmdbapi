@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hearde.css';
+import Profile from '../../perfil.jpg';
 
 export default ({black}) => {
     
@@ -12,7 +13,7 @@ export default ({black}) => {
             </div>
             <div className="header--user">
                 <a href="/">
-                    <img src="https://uploaddeimagens.com.br/imagens/IzLOS8s"  alt="usuário"/>
+                    <img src={Profile} alt="usuário"/>
                 </a>
             </div>
         </header>
